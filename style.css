@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1F2937
+}
+/* Flex container for entire header */
+.contain-header {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    background-color: #1F2937;
+}
+/* Header logo */
+.box-1 {
+height: 50px;
+width: 130px;
+background-color: #1F2937;
+color: white;
+margin-right: auto;
+margin-left: 80px;
+}
+/* The three header boxes */
+.box-2, .box-3, .box-4 {
+height: 50px;
+width: 130px;
+background-color: #1F2937;
+color: gray;
+}
+/* The last box to the right in the header*/
+.box-4 {
+    margin-right: 70px;
+}
+/* Second flex container */
+.contain-1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+/* First box in 2nd flex container*/
+.box-5 {
+    height: 150px;
+    width: 250px;
+    background-color: white;
+}
+/* Second box in 2nd flex container */
+.box-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    background-color: lightslategray;
+    color: white;
+}
