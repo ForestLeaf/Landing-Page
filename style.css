@@ -34,7 +34,7 @@ color: gray;
     margin-right: 70px;
 }
 /* Second flex container */
-.container-1 {
+.flexcontainer-1 {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -84,33 +84,35 @@ margin-top: 5px;
     font-size: 25px;
     font-weight:800;
 }
-
+/* The first white container */
 .container-2 {
-    height: 300px;
+    height: 350px;
     width: 100%;
     background-color: white;
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
+/* "Some random information"*/
     .boldtext {
         font-size: large;
         font-weight: 700;
-        margin-bottom: 60px;
+        margin-bottom: 25px;
         margin-top: 50px;
         padding-top: 20px;
+
     }
 .flexcontainer-2 {
     display: flex;
     justify-content: center;
     gap: 40px;
-    background-color: antiquewhite;
+    
 }
 
 .box-9 {
     height: 120px;
     width: 120px;
-    border: 2px solid blue;
+    border: 2px solid #3882F6;
     border-radius: 10%;
     background-color: white;
 
@@ -121,6 +123,35 @@ margin-top: 5px;
     
 }
 
-.text {
+.text-1 {
     margin-top: 5px;
 }
+/* Gray container */
+.container-3 {
+background-color: #E5E7EB;
+height: 200px;
+}
+/* Invisible container in gray container */
+.flexcontainer-3 {
+    display: flex;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    }
+/* This is an inspiring quote message */
+.text-2 {
+    max-width: 340px;
+}
+
+/* Container for "Thor, God of Thunder" quote. */
+.flexcontainer-4 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 300px;
+    padding-top: 35px;
+}
+
+
+
