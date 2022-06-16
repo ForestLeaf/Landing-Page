@@ -196,7 +196,16 @@ margin-left: 100px;
 justify-content: center;
 align-items: center;
 color:white;
+}
 
+.footer-note {
+    display: flex;
+    height: 50px;
+    background-color: #1F2937;
+    color:#ffffff99 ;
+    font-size: x-small;
+    justify-content: center;
+    align-items: center;
 }
 
 
