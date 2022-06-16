@@ -153,7 +153,7 @@ height: 200px;
     padding-top: 35px;
     font-weight: bold;
 }
-
+/* Bottom white container */
 .container-4 {
     display: flex;
     justify-content: center;
@@ -161,20 +161,41 @@ height: 200px;
     background-color: white;
     height: 170px;
 }
-
+/* Bottom blue container */
 .flexcontainer-5 {
     display: flex;
     background-color: #3882F6;
     height: 75px;
-    width: 600px;
+    width: 700px;
     border-radius: 5px;
+    align-items: center;
 }
 
 .box-10 {
+height: 50px;
+width: 300px;
+color: white;
+font-weight: bold;
+margin-left: 100px;
+margin-top: 15px;
+}
+.box-11 {
+color: #ffffff99;
+height:auto;
+width:auto;
+font-size: x-small;
 
 }
-
-.box-11 {
+.signup {
+    display: flex;
+height: 30px;
+width: 90px;
+border: 2px solid #ffffff99;
+border-radius: 5px;
+margin-left: 100px;
+justify-content: center;
+align-items: center;
+color:white;
 
 }
 
