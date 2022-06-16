@@ -23,6 +23,8 @@ background-color: #1F2937;
 color: white;
 margin-right: auto;
 margin-left: 80px;
+font-family: sans-serif;
+font-weight: bold;
 }
 /* The three header boxes */
 .box-2, .box-3, .box-4 {
@@ -30,6 +32,7 @@ height: 50px;
 width: 130px;
 background-color: #1F2937;
 color: gray;
+font-family: sans-serif;
 }
 /* The last box to the right in the header*/
 .box-4 {
@@ -52,16 +55,19 @@ color: gray;
 }
 .box-6 {
     font-size: 25px;
-    font-weight:800;
+    font-weight:700;
     margin-left: 10px;
+    font-family: sans-serif;
 }
 
 .box-7 {
 margin-left: 10px;
+font-size: small;
+color: #ffffff99;
 }
 
 .button {
-background-color: rgb(0, 178, 248);
+background-color:#3882F6;
 height: 20px;
 width: 70px;
 color: white;
@@ -70,6 +76,10 @@ margin-left: 10px;
 display: flex;
 justify-content: center;
 margin-top: 5px;
+font-family: sans-serif;
+font-size: 10px;
+padding: 5px;
+
 }
 /* Second box in 2nd flex container */
 .box-8 {
@@ -96,11 +106,12 @@ margin-top: 5px;
 }
 /* "Some random information"*/
     .boldtext {
-        font-size: large;
-        font-weight: 700;
+        font-size: 20px;
+        font-weight:900;
         margin-bottom: 25px;
         margin-top: 50px;
         padding-top: 20px;
+        font-family:sans-serif;
 }
 /* Contains the 4 white boxes and text below */
 .flexcontainer-2 {
@@ -111,20 +122,23 @@ margin-top: 5px;
 }
 /* The four white boxes with blue border */
 .box-9 {
-    height: 120px;
-    width: 120px;
+    height: 110px;
+    width: 110px;
     border: 3px solid #3882F6;
     border-radius: 10%;
     background-color: white;
 }
 /* Helps to align text under white boxes*/
 .info {
-    max-width: 120px;
+    max-width: 115px;
+
     
 }
 /* Adds a small margin between 4 white boxes and text below */
 .text-1 {
     margin-top: 5px;
+    font-size: small;
+    text-align:initial;
 }
 /* Gray container */
 .container-3 {
@@ -142,6 +156,10 @@ height: 200px;
 /* This is an inspiring quote message */
 .text-2 {
     max-width: 340px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: gray;
 }
 
 /* Container for "Thor, God of Thunder" quote. */
@@ -150,8 +168,11 @@ height: 200px;
     justify-content: center;
     align-content: center;
     margin-left: 300px;
-    padding-top: 35px;
-    font-weight: bold;
+    padding-top: 45px;
+    font-weight: 900;
+    font-family: sans-serif;
+    
+    font-size: small;
 }
 /* Bottom white container */
 .container-4 {
@@ -178,6 +199,7 @@ color: white;
 font-weight: bold;
 margin-left: 100px;
 margin-top: 15px;
+font-family: sans-serif;
 }
 .box-11 {
 color: #ffffff99;
@@ -196,6 +218,7 @@ margin-left: 100px;
 justify-content: center;
 align-items: center;
 color:white;
+font-family: sans-serif;
 }
 
 .footer-note {
