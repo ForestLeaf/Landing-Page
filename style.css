@@ -1,6 +1,8 @@
+/* Universal selector to make all boxes easier to measure */
 * {
     box-sizing: border-box;
 }
+/* I set margin and padding to 0 to prevent white space on the page edges */
 body {
     margin: 0px;
     padding: 0px;
@@ -86,12 +88,11 @@ margin-top: 5px;
 }
 /* The first white container */
 .container-2 {
-    height: 350px;
+    height: 320px;
     width: 100%;
     background-color: white;
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 0px;
 }
 /* "Some random information"*/
     .boldtext {
@@ -100,29 +101,28 @@ margin-top: 5px;
         margin-bottom: 25px;
         margin-top: 50px;
         padding-top: 20px;
-
-    }
+}
+/* Contains the 4 white boxes and text below */
 .flexcontainer-2 {
     display: flex;
     justify-content: center;
     gap: 40px;
     
 }
-
+/* The four white boxes with blue border */
 .box-9 {
     height: 120px;
     width: 120px;
-    border: 2px solid #3882F6;
+    border: 3px solid #3882F6;
     border-radius: 10%;
     background-color: white;
-
 }
-
+/* Helps to align text under white boxes*/
 .info {
     max-width: 120px;
     
 }
-
+/* Adds a small margin between 4 white boxes and text below */
 .text-1 {
     margin-top: 5px;
 }
@@ -151,6 +151,31 @@ height: 200px;
     align-content: center;
     margin-left: 300px;
     padding-top: 35px;
+    font-weight: bold;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 170px;
+}
+
+.flexcontainer-5 {
+    display: flex;
+    background-color: #3882F6;
+    height: 75px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.box-10 {
+
+}
+
+.box-11 {
+
 }
 
 
